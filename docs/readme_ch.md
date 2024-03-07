@@ -19,26 +19,27 @@
 # 支持的ISP模块列表
 
 - Raw Domain
-    - [x] MipiUnPack: mipi raw data unpack to raw16
-    - [x] DePwl: decode the pwl curve
-    - [x] Dpc: dynamic pixel correct
-    - [x] Lsc: lens shding correct
-    - [x] Blc: black level correct
-    - [ ] Rns: raw noise filter
-    - [x] WbGain: white balance gain
-    - [x] Demoasic: change raw to rgb
+    - [x] MipiUnPack: Mipi原始数据转RAW16
+    - [x] DePwl: 解压缩数据
+    - [x] Dpc: 动态坏点校准（TBD）
+    - [x] Lsc: 镜头阴影校准（TBD）
+    - [x] Blc: 黑电平校准
+    - [x] Rns: Raw域降噪
+    - [x] WbGain: 白平衡增益
+    - [x] Demoasic: 解马赛克
 - RGB Domain
-    - [x] Ltm: local tone mapping
-    - [x] RgbGamma: rgb gamma curve
-    - [x] Ccm: color correct matrix
-    - [x] Rgb2Yuv: rgb domain to yuv domain
+    - [x] Ltm: 局部色调映射
+    - [x] RgbGamma: rgb伽马曲线
+    - [x] Ccm: 色彩校准矩阵
+    - [x] Rgb2Yuv: rgb域转yuv域
 - YUV Domain
-    - [x] YGamma: gray gamma curve
-    - [x] Contrast: gray contrast adjust
-    - [x] Sharpen: gray usm sharpen
-    - [x] Cns: chrome noise filter
-    - [x] Saturation: chrome saturation
-    - [x] Yuv2Rgb: yuv domain to rgb domain
+    - [x] YGamma: 灰度伽马曲线
+    - [x] Contrast: 对比度提升
+    - [x] Sharpen: 锐化边缘增强
+    - [x] Cns: 颜色滤波（TBD）
+    - [x] Saturation: 色度提升
+    - [x] Yuv2Rgb: yuv域rgb域
+ 
 
 # 如何编译与运行
 
